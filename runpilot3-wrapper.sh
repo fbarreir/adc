@@ -538,10 +538,6 @@ function main() {
   fi
   echo
 
-  echo "---- JOB Environment ----"
-  printenv | sort
-  echo
-
   log "==== pilot stdout BEGIN ===="
   $cmd &
   pilotpid=$!
